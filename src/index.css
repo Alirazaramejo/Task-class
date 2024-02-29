@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: rgb(26, 26, 26);
+}
+.upper{
+    width: 580px;
+    height: 128px;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 64px;
+    text-align: start;
+}
+.card{
+    width: 357px;
+    height: 159px;
+}
+.head{
+    font-size: 48px;
+    font-style: normal;
+    line-height: 48px;
+    text-align: start;
+}
+.para{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    font-style: normal;
+    
+}
+.second{
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128px;
+    text-transform: uppercase;
+}
+.gap{
+  
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.gap1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
