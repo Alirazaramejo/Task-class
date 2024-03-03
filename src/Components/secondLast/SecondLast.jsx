@@ -6,18 +6,18 @@ import { FaDribbble, FaInstagram } from "react-icons/fa";
 
 function SecondLast() {
   return (
-    <div className='bg-black mt-5'>
+    <div className='bg-black w-full mt-5'>
       <div className='text-white max-w-[1100px] mx-auto flex flex-col md:flex-row justify-between'>
-        <div className="hidden md:block w-[270px] h-[460px]"></div>
-        <div className='w-[340px] h-[460px]'>
+        <div className="hidden md:w-[270px] md:block"></div>
+        <div className='w-full md:w-[340px] md:h-[460px]'>
           <p className="w-full">Janelle Brown </p>
           <p className='text-gray-500 mt-2'>
             Senior UX Designer, currently crafting experiences at Crosby.
           </p>
           <img src={Last} alt="Profile" className="w-full" />
         </div>
-        <div className="hidden md:block w-[100px] h-[460px]"></div>
-        <div className='w-[601px] h-[375px] mt-5 md:mt-0'>
+        <div className="hidden md:w-[100px] md:block"></div>
+        <div className='w-full md:w-[601px] md:h-[375px] mt-5 md:mt-0'>
           <h4 className='text-3xl mb-8'>
             Think I’d be a good fit for your team or project? Let’s connect.
           </h4>
